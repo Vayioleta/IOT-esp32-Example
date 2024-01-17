@@ -1,0 +1,7 @@
+FROM python:3.8-slim
+WORKDIR /app
+
+RUN pip install fastapi==0.68.0
+RUN pip install uvicorn==0.15.0
+RUN pip install pandas
+RUN pip install matplotlib
